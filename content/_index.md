@@ -210,27 +210,29 @@ sections:
   #       {{< gallery album="demo" >}}
   #   design:
   #     columns: '1'
-  - block: collection
-    id: featured
-    content:
-      title: Featured Publications
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: compact
-  - block: collection
-    content:
-      title: Recent Publications
-      filters:
-        folders:
-          - publication
-        exclude_featured: false
-    design:
-      columns: '2'
-      view: citation
+  
+  #- block: collection
+  #  id: featured
+  #  content:
+  #    title: Featured Publications
+  #    filters:
+  #      folders:
+  #        - publication
+  #      featured_only: true
+  #  design:
+  #    columns: '2'
+  #   view: compact
+  #- block: collection
+  #  content:
+  #    title: Recent Publications
+  #    filters:
+  #      folders:
+  #        - publication
+  #      exclude_featured: false
+  #  design:
+  #    columns: '2'
+  #    view: citation
+      
   # - block: collection
   #   id: talks
   #   content:

@@ -1,7 +1,7 @@
 
 ---
 # Display name
-title: "Dimitrios Dagdilelis"
+title: "Angelos Daglaroglou"
 
 # Name pronunciation (optional)
 name_pronunciation: "dimda(at)dtu(dot)dk"
